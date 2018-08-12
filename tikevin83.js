@@ -1,6 +1,8 @@
-//Starts Lozad
-const observer = lozad();
-observer.observe();
+window.onload="startLozad()";
+function startLozad() {
+  const observer = lozad();
+  observer.observe();
+}
 
 //All JS after this is unnecessary if you don't need autoplay
 var slidesShown = 0;
