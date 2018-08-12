@@ -4,8 +4,8 @@ html, body {
 
 .loSlide {
     padding: 0;
-    width: 640px;
-    height: 420px;
+    width: 400px;
+    height: 300px;
     margin: 0 auto;
     position: relative;
 }
@@ -25,8 +25,8 @@ html, body {
 }
 
 img.lozad {
-  width: 640px;
-  height: 420px;
+  width: 400px;
+  height: 300px;
   display: none;
   top: 0;
   position: absolute;
@@ -45,14 +45,14 @@ img.lozad[data-loaded="true"], input:checked+ .slide-container img {
 .loSlide input {
   z-index: 2;
   float:left;
-	top: 350px;
-  left: 164px;
-	width: 32px;
-	height: 32px;
-	margin: 10px;
-	position: relative;
-	border-radius: 50%;
-	display: inline-block;
+  top: 250px;
+  left: 44px;
+  width: 32px;
+  height: 32px;
+  margin: 10px;
+  position: relative;
+  border-radius: 50%;
+  display: inline-block;
 }
 
 .loSlide input:hover {
