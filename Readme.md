@@ -1,10 +1,10 @@
 TiKevin83's GitHub IO Page for experimenting with LoSlide, a CSS focused lazy loading slideshow.
 
-#LoSlide
+# LoSlide
 
 A mashup of Lozad and concepts from Avi Kohn's CSS Image Slider.
 
-###Performance Goals
+### Performance Goals
 
 Lozad's IntersectionObservers allow for loading images when they are needed on-screen, without complex scroll listeners or sacrificing page size by loading all the images immediately.
 
@@ -14,7 +14,7 @@ Modularized JS lets developers grab the specific functions they need for their u
 
 Currently planned function modules are Autoplay (scrolls through the slides without user input) and ImagePreload (manually load images on a delay after the page is fully loaded, to avoid animation issues for sites which anticipate slow connections while still benefiting from Lozad's deferred load behavior for the initial page load).
 
-###No Loss in Quality
+### No Loss in Quality
 
 Images taken from free 4K dumps and cropped to 3200x2400, then downscaled to 1600x1200, 800x600, and 400x300 for sourcesets.
 
