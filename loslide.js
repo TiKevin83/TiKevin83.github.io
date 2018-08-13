@@ -8,7 +8,8 @@
   observer.observe();
 })();
 
-//All JS after this is unnecessary if you don't need autoplay
+//Uncomment this for Autoplay
+/* 
 (function autoPlay() {
   var slidesShown = 0;
   var slideInputs = document.querySelectorAll(".loSlide input");
@@ -22,3 +23,10 @@
     clearInterval(autoplayInterval);
   },false)})
 })();
+*/
+
+//Uncomment this to preload images after window.onload
+/*
+window.onload = function imagePreload() {
+  [].forEach.call(document.querySelectorAll(".loSlide picture.lozad"),function(e){lozad().triggerLoad(e)})
+}*/
