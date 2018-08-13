@@ -2,7 +2,7 @@ TiKevin83's GitHub IO Page for experimenting with LoSlide, a CSS focused lazy lo
 
 # LoSlide
 
-A mashup of Apoorv Saxena's Lozad and concepts from Avi Kohn's CSS Image Slider.
+A mashup of Apoorv Saxena's Lozad and Avi Kohn's CSS Image Slider.
 
 ### Performance Goals
 
@@ -12,11 +12,9 @@ Concepts from Avi Kohn's CSS Image Slider are used to minimize reliance on JS, s
 
 Modularized JS lets developers grab the specific functions they need for their use case.
 
-Currently planned function modules:
-
 Autoplay (scrolls through the slides without user input)
 
-ImagePreload (manually load images on a delay after the page is fully loaded, to avoid animation issues for sites which anticipate slow connections while still benefiting from Lozad's deferred load behavior for the initial page load).
+ImagePreload (force load images after window.onload).
 
 ### No Loss in Quality
 
