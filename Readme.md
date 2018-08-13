@@ -2,7 +2,7 @@ TiKevin83's GitHub IO Page for experimenting with LoSlide, a CSS focused lazy lo
 
 # LoSlide
 
-A mashup of Lozad and concepts from Avi Kohn's CSS Image Slider.
+A mashup of Apoorv Saxena's Lozad and concepts from Avi Kohn's CSS Image Slider.
 
 ### Performance Goals
 
@@ -26,6 +26,8 @@ WebP encoding using cwebp 1.0.0 -q 84 -m 6 -sharp_yuv -noalpha
 
 JPG encoding using mozjpjeg 3.3.1 with -quality 80 -quant-table 4 -baseline to optimize for decode speed
 
--q 84 in WebP in my uses has led to images slightly smaller than JPG with indistinguishable/better quality.  allowing mozjpeg to do its progressive jpeg optimizations could be interesting to look into.
+-q 84 in WebP in my uses has led to images slightly smaller than JPG -quality 80 with indistinguishable/better quality.  allowing mozjpeg to do its progressive jpeg optimizations could be interesting to look into.
+
+A long term goal would be to have a custom image CDN which can serve these high quality images dynamically to those encoding parameters, varying the image type based on the browser's preference.  This would save code in the HTML and provide a better user experience for users sharing images within the slides.
 
 Working on re-implementing labels for the slide inputs so that they can be styled as desired.
