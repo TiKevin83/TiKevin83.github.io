@@ -4,6 +4,8 @@ TiKevin83's GitHub IO Page for experimenting with LoSlide, a CSS focused lazy lo
 
 A mashup of Apoorv Saxena's [Lozad](https://github.com/ApoorvSaxena/lozad.js) and Avi Kohn's [CSS Image Slider](https://codepen.io/AMKohn/pen/EKJHf).
 
+Live [here] and available in [CodePen](https://codepen.io/tikevin83/pen/BPvQMz)
+
 ### Performance Goals
 
 Lozad's IntersectionObservers allow for loading images when they are needed on-screen, without complex scroll listeners or sacrificing page size by loading all the images immediately.
