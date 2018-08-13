@@ -2,7 +2,7 @@ TiKevin83's GitHub IO Page for experimenting with LoSlide, a CSS focused lazy lo
 
 # LoSlide
 
-A mashup of Lozad and concepts from Avi Kohn's CSS Image Slider.
+A mashup of Apoorv Saxena's Lozad and concepts from Avi Kohn's CSS Image Slider.
 
 ### Performance Goals
 
