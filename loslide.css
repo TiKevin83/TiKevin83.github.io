@@ -44,7 +44,7 @@ picture.lozad[data-loaded="true"], input:checked+ .slide-container picture {
 
 .loSlide input {
   z-index: 2;
-  float:left;
+  float: left;
   top: 550px;
   left: 244px;
   width: 32px;
@@ -52,7 +52,6 @@ picture.lozad[data-loaded="true"], input:checked+ .slide-container picture {
   margin: 10px;
   position: relative;
   border-radius: 50%;
-  display: inline-block;
 }
 
 .loSlide input:hover {
