@@ -46,7 +46,7 @@ picture.lozad[data-loaded="true"], input:checked + .slide-container picture {
   display: none;
 }
 
-.nav-dot {
+.loSlide label {
   z-index: 2;
   float: left;
   top: 550px;
@@ -60,11 +60,11 @@ picture.lozad[data-loaded="true"], input:checked + .slide-container picture {
   background: rgba(255, 255, 255, 0.5);
 }
 
-.nav-dot:hover {
+.loSlide label:hover {
 	cursor: pointer;
   background: rgba(0, 0, 0, 0.5);
 }
 
-input:checked + .slide-container + .nav-dot {
+input:checked + div + label {
 	background: rgba(0, 0, 0, 0.5);
 }
