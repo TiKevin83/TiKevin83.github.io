@@ -45,8 +45,8 @@ picture.lozad[data-loaded="true"], input:checked+ .slide-container picture {
 .loSlide input {
   z-index: 2;
   float:left;
-  top: 250px;
-  left: 44px;
+  top: 550px;
+  left: 244px;
   width: 32px;
   height: 32px;
   margin: 10px;
