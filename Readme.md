@@ -26,6 +26,6 @@ WebP encoding using cwebp 1.0.0 -q 84 -m 6 -sharp_yuv -noalpha
 
 JPG encoding using mozjpjeg 3.3.1 with -quality 80 -quant-table 4 -baseline to optimize for decode speed
 
--q 84 in WebP in my uses has led to images slightly smaller than JPG with indistinguishable/better quality.  allowing mozjpeg to do its progressive jpeg optimizations could be interesting to look into.
+-q 84 in WebP in my uses has led to images slightly smaller than JPG -quality 80 with indistinguishable/better quality.  allowing mozjpeg to do its progressive jpeg optimizations could be interesting to look into.
 
 Working on re-implementing labels for the slide inputs so that they can be styled as desired.
