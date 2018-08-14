@@ -1,0 +1,12 @@
+head
+  script(src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js")
+
+body
+  div.loSlide
+    - for (var x = 1; x < 7; x++)
+      input(type="radio", name="radio-btn", id="img-"+x, checked=(x == 1))
+      div.slide
+        picture(class="lozad" data-iesrc="https://tikevin83.github.io/Images/slide"+x+".jpg" data-alt="slide "+x)
+          source(srcset="https://tikevin83.github.io/Images/slide"+x+".webp, https://tikevin83.github.io/Images/slide"+x+"-small.webp .5x, https://tikevin83.github.io/Images/slide"+x+"-large.webp 2x" type="image/webp")
+          source(srcset="https://tikevin83.github.io/Images/slide"+x+".jpg, https://tikevin83.github.io/Images/slide"+x+"-small.jpg .5x, https://tikevin83.github.io/Images/slide"+x+"-large.jpg 2x" type="image/jpeg")
+      label(for="img-"+x id="img-dot-"+x)

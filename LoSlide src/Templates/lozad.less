@@ -1,0 +1,69 @@
+html, body {
+  background: #333;
+}
+
+.loSlide {
+  padding: 0;
+  width: 800px;
+  height: 600px;
+  margin: 0 auto;
+  position: relative;
+    * {
+    user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+  }
+}
+
+.slide {
+  opacity: 0;
+  transition: opacity 1s;
+  top: 0;
+  position: absolute;
+  picture.lozad {
+    width: 800px;
+    height: 600px;
+    display: none;
+    top: 0;
+    position: absolute;
+    &[data-loaded="true"] {
+      display: block;
+    }
+  }
+}
+
+input {
+  display: none;
+  &:checked {
+    + .slide {
+      opacity: 1;
+      z-index: 1;
+      display: block;
+      picture {
+        display: block;
+      }
+    }
+    + div + label {
+      background: rgba(0, 0, 0, 0.67);
+    }
+  }
+}
+
+label {
+  z-index: 2;
+  float: left;
+  top: 550px;
+  left: 244px;
+  width: 16px;
+  height: 16px;
+  margin: 10px;
+  position: relative;
+  border: 8px solid white;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.67);
+  &:hover {
+	  cursor: pointer;
+    background: rgba(0, 0, 0, 0.67);
+  }
+}
